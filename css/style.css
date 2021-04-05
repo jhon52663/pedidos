@@ -1,0 +1,45 @@
+body{
+	
+}
+header{
+	background: #ccc;
+	padding-top: 20px;
+	
+
+}
+.logo img{
+	display:block;
+	margin:auto;	
+	width: 200px;
+
+}
+.logo a{
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+	font-size: 10px;
+
+}
+.logo h1{
+	font-size: 24px;
+}
+
+.estado img{
+	display:block;
+	margin:auto;
+	width: 300px;
+}
+.estado{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+footer{
+	background: #191919;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.copy{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Estado de Pedidos
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+
+</head>
+<body>
+<header>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="logo">
+			<a href="index.html"><img src="images/logo.webp"><br>
+				<h1>Estado de pedido </h1></a>
+
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fas fa-truck"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contácto</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+	</div>	
+</header>
+
+<section class="estado">
+	<div class="container row">
+		<div class="col-sm-6">
+
+			<img src="images/buscando.jpg">
+
+		</div>
+		<div class="col-sm-6 formpedido">
+			<form>
+				<div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+   
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Numero de Pedido</label>
+    <input type="text" class="form-control" id="exampleInputPassword1">
+  </div>
+ 
+  <button type="submit" class="btn btn-primary" onclick="pedido()">Buscar pedido</button>
+</form>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container row">
+	<div class="copy col-sm-12">
+			CopyRight Consultatupedido 2021 <br>
+			Bogotá-Colombia<br>
+			Diseño por Sara Sofia Muñoz / Jhon Jarbi Palacios
+	</div>
+	</div>
+</footer>
+
+
+
+<script type="text/javascript" src="js/pedido.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/pedido.js"></script>
+<script type="text/javascript" src="js/fontawesome.min.js"></script>
+<script src="https://kit.fontawesome.com/07f9a48760.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
